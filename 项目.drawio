@@ -567,7 +567,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tuk-EKJB6qFpOSlc3FZ9" name="第 4 页">
-    <mxGraphModel dx="1507" dy="433" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1337" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -880,6 +880,39 @@
         </mxCell>
         <mxCell id="4Mo2ih9EWnVTqlATcnA9-151" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="820" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mo2ih9EWnVTqlATcnA9-154" target="4Mo2ih9EWnVTqlATcnA9-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-154" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1049" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mo2ih9EWnVTqlATcnA9-156" target="4Mo2ih9EWnVTqlATcnA9-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-156" value="点击退登按钮触发退登函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="618" y="1049" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mo2ih9EWnVTqlATcnA9-165" target="4Mo2ih9EWnVTqlATcnA9-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-165" value="清空userStore中用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="618" y="1110" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mo2ih9EWnVTqlATcnA9-174" target="4Mo2ih9EWnVTqlATcnA9-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-174" value="删除localStorage中token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="1110" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-175" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="968" y="1049" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mo2ih9EWnVTqlATcnA9-187" target="4Mo2ih9EWnVTqlATcnA9-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mo2ih9EWnVTqlATcnA9-187" value="跳转至登录页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="1049" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
