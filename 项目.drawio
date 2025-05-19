@@ -1142,7 +1142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PQ1RYZelsGWM7Z-U3ZtO" name="第 5 页">
-    <mxGraphModel dx="973" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="973" dy="595" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1197,53 +1197,98 @@
         <mxCell id="3G7DJif1pcOVdw8uRroe-37" value="是否开启地球图层" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="220" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-39" target="3G7DJif1pcOVdw8uRroe-45">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-39" target="3G7DJif1pcOVdw8uRroe-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3G7DJif1pcOVdw8uRroe-39" value="创建场景scene" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="225" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-43" value="提示错误信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="225" width="150" height="40" as="geometry" />
+        <mxCell id="3G7DJif1pcOVdw8uRroe-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-43" target="3G7DJif1pcOVdw8uRroe-87">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-45" target="3G7DJif1pcOVdw8uRroe-74">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-43" value="创建Cesium.Viewer对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="225" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-45" target="3G7DJif1pcOVdw8uRroe-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3G7DJif1pcOVdw8uRroe-45" value="新建THREE.GridHelper对象生成网格，对象名为grid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="280" width="150" height="40" as="geometry" />
+          <mxGeometry x="70" y="225" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-74" target="3G7DJif1pcOVdw8uRroe-75">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-74" target="3G7DJif1pcOVdw8uRroe-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3G7DJif1pcOVdw8uRroe-74" value="调用drawLayer函数生成地板，返回实体对象layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="340" width="150" height="40" as="geometry" />
+          <mxGeometry x="70" y="280" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-75" target="3G7DJif1pcOVdw8uRroe-78">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-75" target="3G7DJif1pcOVdw8uRroe-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3G7DJif1pcOVdw8uRroe-75" value="创建渲染器renderer，设置画面大小并将dom插入页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="150" height="40" as="geometry" />
+          <mxGeometry x="70" y="340" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-78" target="3G7DJif1pcOVdw8uRroe-80">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-78" target="3G7DJif1pcOVdw8uRroe-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3G7DJif1pcOVdw8uRroe-78" value="创建渲染器renderer，设置画面大小并将dom插入页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="150" height="40" as="geometry" />
+          <mxGeometry x="70" y="400" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-80" target="3G7DJif1pcOVdw8uRroe-82">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-80" target="3G7DJif1pcOVdw8uRroe-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-80" value="设置天空盒或背景颜色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="520" width="150" height="40" as="geometry" />
+        <mxCell id="3G7DJif1pcOVdw8uRroe-80" value="根据详情信息初始化各对象参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-82" target="3G7DJif1pcOVdw8uRroe-84">
+        <mxCell id="3G7DJif1pcOVdw8uRroe-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-82" target="3G7DJif1pcOVdw8uRroe-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3G7DJif1pcOVdw8uRroe-82" value="添加基本光源与地板光，设置鼠标操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="580" width="150" height="40" as="geometry" />
+        <mxCell id="3G7DJif1pcOVdw8uRroe-82" value="添加光源，设置鼠标操作并创建controls对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-84" target="3G7DJif1pcOVdw8uRroe-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3G7DJif1pcOVdw8uRroe-84" value="开启渲染动画循环，返回对象集合viewer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="640" width="150" height="40" as="geometry" />
+          <mxGeometry x="240" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-87" target="3G7DJif1pcOVdw8uRroe-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-87" value="根据信息初始化viewer参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-90" target="3G7DJif1pcOVdw8uRroe-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-90" value="将viewer保存至Ref Baseveiwer中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-101" target="3G7DJif1pcOVdw8uRroe-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-101" value="调用initModelRegistry工厂函数初始化模型控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-106" target="3G7DJif1pcOVdw8uRroe-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-106" value="使用模型控制器注册项目已有模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-111" target="3G7DJif1pcOVdw8uRroe-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-111" value="根据详情信息初始化其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3G7DJif1pcOVdw8uRroe-112" target="3G7DJif1pcOVdw8uRroe-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-112" value="调用RandomSceneRoamer工厂函数初始化漫游控件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G7DJif1pcOVdw8uRroe-115" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="580" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
